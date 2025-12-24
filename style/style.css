@@ -40,3 +40,43 @@ body {
     display: inline-block;
     text-align: center;
 }
+
+.background-container{
+    background-color: white;
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 50px 0;
+    border-radius: 25px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.games{
+    background-color: #2b2b2b;
+    width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.games h3{
+    margin: 10px 0;
+    color: white;
+}
+
+.games p{
+    font-size: 14px;
+    line-height: 1.5;
+    color: #d3d3d3;
+}
+.games img{
+    width: 120px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
