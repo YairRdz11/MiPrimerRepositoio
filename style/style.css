@@ -1,9 +1,23 @@
-h1 {
-    color: red;
+body {
+    background: linear-gradient(to right, rgba(95, 0, 190), black, rgba(95, 0, 190));
+    margin: 0;
 }
 
-.parrafo {
-    font-size: 16px;
-    line-height: 1.5;
-    color: yellow;
+.header {
+    background: linear-gradient(to right, purple, rgb(76, 1, 77));
+    width: 100%;
+}
+
+.header h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 25px;
+    font-size: 50px;
+}
+
+.header p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
 }
